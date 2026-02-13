@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Stazione – HYROX DIY</title>
+  <link rel="stylesheet" href="/styles.css"/>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/index.html" class="navbar__logo">🏋️ HYROX DIY</a>
+      <ul class="navbar__menu">
+        <li><a href="/stations.html" class="navbar__link">Stazioni</a></li>
+        <li><a href="/products.html" class="navbar__link">Attrezzatura</a></li>
+        <li><a href="/recipes.html" class="navbar__link">Ricette</a></li>
+      </ul>
+      <button class="navbar__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <header class="topbar">
+    <a class="iconbtn" href="/stations.html" aria-label="Indietro">←</a>
+
+    <div class="topbar__title">
+      <div id="stationTitle" class="title">Stazione</div>
+      <div id="stationTagline" class="subtitle"></div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 3 opzioni attrezzatura -->
+    <section class="segmented" role="tablist" aria-label="Scegli il tipo di attrezzatura">
+      <button
+        class="seg is-active"
+        data-level="1"
+        role="tab"
+        id="tab-body"
+        aria-selected="true"
+        aria-controls="panel-body"
+        tabindex="0"
+        type="button">
+        Corpo libero
+      </button>
+
+      <button
+        class="seg"
+        data-level="2"
+        role="tab"
+        id="tab-home"
+        aria-selected="false"
+        aria-controls="panel-home"
+        tabindex="-1"
+        type="button">
+        Oggetti di casa
+      </button>
+
+      <button
+        class="seg"
+        data-level="3"
+        role="tab"
+        id="tab-gear"
+        aria-selected="false"
+        aria-controls="panel-gear"
+        tabindex="-1"
+        type="button">
+        Attrezzi
+      </button>
+    </section>
+
+    <!-- descrizione dinamica selezione -->
+    <section id="equipHint" class="infostrip" style="margin-top:16px;">
+      Nessuna attrezzatura richiesta: ti basta il tuo corpo e un po’ di spazio.
+    </section>
+
+    <!-- Panels: il JS riempie exerciseList e (se vuoi) nasconde/mostra i panel -->
+    <section class="panels" style="margin-top:16px;">
+      <div id="panel-body" role="tabpanel" aria-labelledby="tab-body">
+        <section id="exerciseList" class="list"></section>
+      </div>
+
+      <div id="panel-home" role="tabpanel" aria-labelledby="tab-home" hidden></div>
+      <div id="panel-gear" role="tabpanel" aria-labelledby="tab-gear" hidden></div>
+    </section>
+  </main>
+
+  <nav class="bottomnav" aria-label="Navigazione">
+    <a class="navitem" href="/">Home</a>
+    <a class="navitem is-active" href="/stations.html">Stazioni</a>
+    <a class="navitem" href="/recipes.html">Ricette</a>
+    <a class="navitem" href="/toolkit.html">Toolkit</a>
+  </nav>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+

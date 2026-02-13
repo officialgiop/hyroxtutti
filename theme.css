@@ -1,0 +1,33 @@
+:root{
+  /* Colors (dallo stile SVG) */
+  --bg: #ffffff;
+  --panel: #f6f7fb;
+  --ink: #1f2937;
+  --muted: #6b7280;
+  --border: rgba(31,41,55,.12);
+
+  --accent: #5bbcff;   /* azzurro */
+  --accent2:#7cde9b;   /* verde */
+  --accent3:#ffb86b;   /* arancio */
+
+  /* Radius (coerente col “soft rounded” dello SVG) */
+  --r-sm: 12px;
+  --r-md: 18px;
+  --r-lg: 24px;
+
+  /* Spacing (ritmo costante) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-7: 32px;
+
+  /* Typography */
+  --h1: 22px;
+  --h2: 18px;
+  --body: 15px;
+  --small: 13px;
+}
+

@@ -1,0 +1,327 @@
+/* =========================
+   HYROX DIY – app.js (FULL)
+   Pagine supportate:
+   - /stations.html   (grid stazioni)
+   - /station.html    (dettaglio stazione con 3 opzioni attrezzatura)
+   - /recipes.html    (lista ricette)
+   ========================= */
+
+async function loadJSON(path) {
+  const res = await fetch(path, { cache: "no-store" });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${path}`);
+  return res.json();
+}
+
+function qs(name) {
+  return new URLSearchParams(location.search).get(name);
+}
+
+function escapeHTML(str) {
+  return String(str ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+/* -------------------------
+   Icone (coerenti con stile SVG)
+   ------------------------- */
+function iconSVG(kind) {
+  const base = (inner) => `
+    <svg viewBox="0 0 48 48" width="32" height="32" aria-hidden="true">
+      ${inner}
+    </svg>
+  `;
+
+  switch (kind) {
+    case "skierg":
+      return base(`
+        <path d="M10 12H20" stroke="var(--muted)" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="18" cy="12" r="3" fill="var(--accent)"/>
+        <path d="M30 12C26 18 26 30 30 36" fill="none" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M18 20C22 24 22 28 18 32" fill="none" stroke="var(--accent)" stroke-width="4" stroke-linecap="round"/>
+      `);
+
+    case "sled":
+      return base(`
+        <rect x="10" y="28" width="28" height="10" rx="5" fill="var(--accent3)"/>
+        <path d="M14 26L34 26" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M20 16L32 24" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M10 24H18" stroke="var(--muted)" stroke-width="3" stroke-linecap="round"/>
+      `);
+
+    case "burpee":
+      return base(`
+        <circle cx="16" cy="16" r="5" fill="var(--accent2)"/>
+        <path d="M16 22L16 34" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M16 26L10 30" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M16 26L24 30" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M28 14L38 14" stroke="var(--muted)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M38 14L34 11" stroke="var(--muted)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M38 14L34 17" stroke="var(--muted)" stroke-width="3" stroke-linecap="round"/>
+      `);
+
+    case "row":
+      return base(`
+        <path d="M12 32H36" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M16 28L24 20L32 28" fill="none" stroke="var(--accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="24" cy="18" r="4" fill="var(--accent2)"/>
+      `);
+
+    case "carry":
+      return base(`
+        <circle cx="24" cy="14" r="5" fill="var(--accent2)"/>
+        <path d="M24 20L24 34" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <rect x="10" y="26" width="10" height="12" rx="3" fill="var(--accent)"/>
+        <rect x="28" y="26" width="10" height="12" rx="3" fill="var(--accent)"/>
+      `);
+
+    case "lunges":
+      return base(`
+        <circle cx="18" cy="14" r="5" fill="var(--accent2)"/>
+        <path d="M18 20L18 30" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M18 30L12 36" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M18 30L26 34" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <rect x="26" y="10" width="12" height="8" rx="4" fill="var(--accent3)"/>
+      `);
+
+    case "wallballs":
+      return base(`
+        <path d="M34 10V38" stroke="var(--muted)" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="34" cy="18" r="5" fill="var(--accent3)"/>
+        <circle cx="18" cy="16" r="5" fill="var(--accent2)"/>
+        <path d="M18 22L18 34" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M18 28L26 22" stroke="var(--ink)" stroke-width="4" stroke-linecap="round"/>
+      `);
+
+    default:
+      return base(`<circle cx="24" cy="24" r="10" fill="var(--accent)"/>`);
+  }
+}
+
+/* -------------------------
+   /stations.html
+   ------------------------- */
+async function renderStations() {
+  const grid = document.getElementById("stationsGrid");
+  if (!grid) return;
+
+  try {
+    const stations = await loadJSON("/data/stations.json");
+
+    grid.innerHTML = stations
+      .map((s) => {
+        const name = escapeHTML(s.name);
+        const tagline = escapeHTML(s.tagline || "");
+        const short = escapeHTML(s.short || "Apri");
+
+        // mapping icona: se non specificata, provo con id o con la famiglia "sled"
+        let iconKey = s.icon || s.id || "";
+        if (String(s.id || "").startsWith("sled")) iconKey = "sled";
+
+        return `
+          <a class="stationCard" href="/station.html?id=${encodeURIComponent(s.id)}">
+            <div class="stationIcon">${iconSVG(iconKey)}</div>
+            <div class="stationName">${name}</div>
+            <div class="stationMeta">${tagline}</div>
+            <div class="stationTag">${short}</div>
+          </a>
+        `;
+      })
+      .join("");
+  } catch (err) {
+    console.error(err);
+    grid.innerHTML = `
+      <div class="card">
+        <div class="cardTitle">Errore caricamento</div>
+        <div class="cardMeta">Non riesco a caricare /data/stations.json.</div>
+      </div>
+    `;
+  }
+}
+
+/* -------------------------
+   /station.html
+   ------------------------- */
+function renderExerciseCards(items) {
+  const list = document.getElementById("exerciseList");
+  if (!list) return;
+
+  if (!items || items.length === 0) {
+    list.innerHTML = `
+      <div class="card">
+        <div class="cardTitle">Contenuti in arrivo</div>
+        <div class="cardMeta">Aggiungi esercizi nel JSON per questa opzione.</div>
+      </div>
+    `;
+    return;
+  }
+
+  list.innerHTML = items
+    .map((x) => {
+      const title = escapeHTML(x.title);
+      const setup = escapeHTML(x.setup);
+      const dose = escapeHTML(x.dose);
+
+      return `
+        <article class="card">
+          <div class="cardTitle">${title}</div>
+          <div class="cardMeta">Setup: ${setup}</div>
+          <div class="cardMeta">Dose: ${dose}</div>
+        </article>
+      `;
+    })
+    .join("");
+}
+
+function setEquipHint(level) {
+  const hint = document.getElementById("equipHint");
+  if (!hint) return;
+
+  const messages = {
+    "1": "Non serve nessuna attrezzatura: ti basta il tuo corpo e un po’ di spazio.",
+    "2": "Usa ciò che hai già in casa: bottiglie d’acqua, sedie, zaino e un tappeto/asciugamano.",
+    "3": "Con qualche attrezzo economico (manubri, kettlebell, TRX…) puoi rendere il lavoro più specifico e progressivo."
+  };
+
+  hint.textContent = messages[String(level)] || messages["1"];
+}
+
+function selectTabUI(targetTab) {
+  // targetTab: element con role="tab"
+  const tablist = targetTab?.closest('[role="tablist"]');
+  if (!tablist) return;
+
+  // 1) Tabs state
+  const tabs = Array.from(tablist.querySelectorAll('[role="tab"]'));
+  tabs.forEach((t) => {
+    const isSelected = t === targetTab;
+    t.setAttribute("aria-selected", isSelected ? "true" : "false");
+    t.classList.toggle("is-active", isSelected);
+    t.tabIndex = isSelected ? 0 : -1;
+  });
+
+  // 2) Panels show/hide
+  const container = tablist.parentElement; // station.html: tablist e panels sono fratelli? Qui è nello stesso main, ma ok.
+  // Cerco i tabpanel in tutta la pagina (più robusto rispetto a parentElement)
+  const panels = Array.from(document.querySelectorAll('[role="tabpanel"]'));
+  panels.forEach((p) => p.setAttribute("hidden", "true"));
+
+  const panelId = targetTab.getAttribute("aria-controls");
+  const panel = panelId ? document.getElementById(panelId) : null;
+  if (panel) panel.removeAttribute("hidden");
+
+  // 3) Sposta exerciseList dentro il panel visibile (così non duplichiamo liste)
+  const list = document.getElementById("exerciseList");
+  if (panel && list && list.parentElement !== panel) {
+    panel.appendChild(list);
+  }
+}
+
+async function renderStation() {
+  const titleEl = document.getElementById("stationTitle");
+  if (!titleEl) return; // non siamo su station.html
+
+  const taglineEl = document.getElementById("stationTagline");
+  const id = qs("id");
+
+  // Riferimenti UI tabs/panel
+  const tabButtons = Array.from(document.querySelectorAll('.segmented [role="tab"]'));
+
+  try {
+    const stations = await loadJSON("/data/stations.json");
+    const station = stations.find((s) => s.id === id) || stations[0];
+
+    document.title = `${station.name} – HYROX DIY`;
+    titleEl.textContent = station.name || "Stazione";
+    if (taglineEl) taglineEl.textContent = station.tagline || "";
+
+    // In caso tu tenga gli esercizi altrove, evito crash:
+    const levels = station.levels || { "1": [], "2": [], "3": [] };
+
+    // Stato iniziale
+    let currentLevel = "1";
+    setEquipHint(currentLevel);
+    renderExerciseCards(levels[currentLevel] || []);
+
+    // Click handlers
+    tabButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        currentLevel = String(btn.dataset.level || "1");
+        selectTabUI(btn);
+        setEquipHint(currentLevel);
+        renderExerciseCards(levels[currentLevel] || []);
+      });
+
+      // Navigazione da tastiera (left/right)
+      btn.addEventListener("keydown", (e) => {
+        if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+
+        e.preventDefault();
+        const idx = tabButtons.indexOf(btn);
+        const dir = e.key === "ArrowRight" ? 1 : -1;
+        const next = tabButtons[(idx + dir + tabButtons.length) % tabButtons.length];
+        next.focus();
+        next.click();
+      });
+    });
+
+    // Allinea i pannelli allo stato iniziale
+    const firstTab = tabButtons.find((b) => String(b.dataset.level) === currentLevel) || tabButtons[0];
+    if (firstTab) selectTabUI(firstTab);
+  } catch (err) {
+    console.error(err);
+    const list = document.getElementById("exerciseList");
+    if (list) {
+      list.innerHTML = `
+        <div class="card">
+          <div class="cardTitle">Errore caricamento</div>
+          <div class="cardMeta">Controlla /data/stations.json e l’URL (id).</div>
+        </div>
+      `;
+    }
+  }
+}
+
+/* -------------------------
+   /recipes.html
+   ------------------------- */
+async function renderRecipes() {
+  const list = document.getElementById("recipesList");
+  if (!list) return;
+
+  try {
+    const recipes = await loadJSON("/data/recipes.json");
+    list.innerHTML = recipes
+      .map((r) => {
+        const title = escapeHTML(r.title);
+        const meal = escapeHTML(r.meal);
+        const meta = escapeHTML(r.meta || "");
+        return `
+          <article class="card">
+            <div class="cardTitle">${title}</div>
+            <div class="cardMeta">${meal}${meta ? " · " + meta : ""}</div>
+          </article>
+        `;
+      })
+      .join("");
+  } catch (err) {
+    console.error(err);
+    list.innerHTML = `
+      <div class="card">
+        <div class="cardTitle">Errore caricamento</div>
+        <div class="cardMeta">Non riesco a caricare /data/recipes.json.</div>
+      </div>
+    `;
+  }
+}
+
+/* -------------------------
+   Boot
+   ------------------------- */
+renderStations();
+renderStation();
+renderRecipes();
+

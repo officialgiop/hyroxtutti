@@ -1,0 +1,17 @@
+[
+  {
+    "id": "porridge-pro",
+    "title": "Porridge proteico",
+    "meal": "colazione",
+    "meta": "10 min · semplice",
+    "steps": ["Mescola avena e latte/acqua", "Cuoci 3–4 min", "Aggiungi yogurt e frutta"]
+  },
+  {
+    "id": "riso-tonno",
+    "title": "Riso e tonno",
+    "meal": "pranzo",
+    "meta": "15 min · semplice",
+    "steps": ["Cuoci riso", "Unisci tonno e olio EVO", "Aggiungi pomodori o verdure"]
+  }
+]
+

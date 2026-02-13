@@ -1,0 +1,10 @@
+<svg width="180" height="32" viewBox="0 0 180 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- HYROXTUTTI compatto -->
+  <text x="2" y="24" 
+        font-family="Inter, -apple-system, sans-serif" 
+        font-size="22" 
+        font-weight="800">
+    <tspan fill="#2d6a4f">HYRO</tspan><tspan fill="#f77f00">X</tspan><tspan fill="#2d6a4f">TUTTI</tspan>
+  </text>
+</svg>
+

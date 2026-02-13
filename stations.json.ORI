@@ -1,0 +1,155 @@
+[
+{
+  "id": "skierg",
+  "icon": "skierg",
+  "name": "SkiErg",
+  "short": "1000m",
+  "tagline": "Simulazione sci di fondo: braccia, spalle e core.",
+  "description": "1000m SkiErg: simulazione di sci di fondo. Predominante su braccia, spalle e core; se eseguito bene coinvolge anche la parte bassa del corpo.",
+  "levels": {
+    "1": [
+      {
+        "title": "Shadow Ski Pull (double pole)",
+        "setup": "In piedi, piedi a larghezza spalle. Braccia alte come a prendere le maniglie. Tira verso i fianchi con leggero hinge e ginocchia morbide.",
+        "dose": "6×45” lavoro / 15” pausa (RPE 7/10)"
+      },
+      {
+        "title": "Isometria lat + tricipiti al muro (high-to-low)",
+        "setup": "Fronte al muro. Mani alte sopra la testa appoggiate al muro. Spingi e “tira verso il basso” in isometria come una pulldown.",
+        "dose": "5×30–40” isometria, 30–40” recupero"
+      },
+      {
+        "title": "Prone pulldown (Y→W) a terra",
+        "setup": "A pancia in giù. Braccia distese avanti (Y), poi porta gomiti giù verso le costole (W) stringendo scapole.",
+        "dose": "4×12–20 rip, 60” recupero"
+      },
+      {
+        "title": "Hollow hold + ‘pulldown’ a vuoto",
+        "setup": "In hollow (schiena bassa a terra). Braccia dietro la testa, poi porta le braccia verso i fianchi mantenendo il core fermo.",
+        "dose": "4×10–16 rip lente (2” giù), 45–60” recupero"
+      },
+      {
+        "title": "Plank shoulder taps + hinge drill",
+        "setup": "20” plank con tocchi spalla controllati (bacino fermo), poi 20” hinge drill in piedi (anche indietro, schiena neutra).",
+        "dose": "6 round: 20” + 20”, 40” recupero"
+      }
+    ],
+    "2": [
+      {
+        "title": "Pulldown con lenzuolo/asciugamano su porta (DIY Ski)",
+        "setup": "Lenzuolo robusto passato sopra la porta e chiusa. Afferra le estremità e tira verso i fianchi come SkiErg. (Porta che chiude verso di te).",
+        "dose": "5×60” lavoro / 30” pausa"
+      },
+      {
+        "title": "Inverted row sotto tavolo (tirata orizzontale)",
+        "setup": "Sotto un tavolo molto stabile. Mani al bordo, corpo in linea, tira il petto verso il tavolo.",
+        "dose": "5×6–12 rip, 90” recupero"
+      },
+      {
+        "title": "Backpack pullover a terra",
+        "setup": "Supino. Zaino carico tra le mani sopra il petto, porta lentamente dietro la testa e ritorna (gomiti leggermente piegati).",
+        "dose": "4×10–15 rip, 60–90” recupero"
+      },
+      {
+        "title": "Chop high-to-low con tanica/bottiglia grande",
+        "setup": "In piedi. Oggetto sopra spalla, porta in diagonale verso il fianco opposto con core attivo (movimento controllato).",
+        "dose": "4×10–14 per lato, 60” recupero"
+      },
+      {
+        "title": "Zaino: hinge + trazioni ‘high-to-low’ con spallacci",
+        "setup": "Afferra gli spallacci dello zaino (indossato o davanti a te). Da braccia alte, tira giù verso i fianchi mentre fai hinge leggero.",
+        "dose": "4×12–20 rip, 60” recupero"
+      }
+    ],
+    "3": [
+      {
+        "title": "Band Ski Pull-down (ancoraggio alto)",
+        "setup": "Elastico lungo con ancoraggio porta alto. Tira le mani verso i fianchi con hinge, come gesto SkiErg.",
+        "dose": "6×45” / 15” (RPE 7–8/10)",
+	"img": "/assets/illustrations/exercises/skierg_band_pulldown.svg",
+        "alt": "Persona che tira un elastico ancorato in alto, gesto simile allo SkiErg"
+      },
+      {
+        "title": "TRX / Suspension straight-arm pulldown",
+        "setup": "Cinghie alte. Braccia quasi tese, corpo leggermente inclinato. Porta le mani verso le cosce senza ‘tirare di bicipite’.",
+        "dose": "4×10–18 rip, 60–90” recupero"
+      },
+      {
+        "title": "Lat pulldown in ginocchio con elastico",
+        "setup": "Ancoraggio alto. In ginocchio, glutei attivi. Porta gomiti giù verso le costole e chiudi con mani ai fianchi.",
+        "dose": "4×12–20 rip, 60” recupero"
+      },
+      {
+        "title": "Dumbbell pullover (manubrio singolo)",
+        "setup": "Supino, 1 manubrio tra le mani. Scendi dietro la testa e risali controllando costole e core.",
+        "dose": "4×8–15 rip, 60–90” recupero"
+      },
+      {
+        "title": "Kettlebell swing (supporto hinge/potenza)",
+        "setup": "KB swing classico: hinge, schiena neutra, spinta d’anca. Serve a costruire la ‘spinta’ del gesto (non sostituisce la tirata).",
+        "dose": "8×20” lavoro / 40” pausa"
+      }
+    ]
+  }
+},
+  
+
+
+{
+    "id": "sled-push",
+    "icon": "sled",
+    "name": "Sled Push (spinta)",
+    "short": "50m",
+    "tagline": "Spinta slitta: catena posteriore, core e quadricipiti.",
+    "description": "50m Sled Push: spinta della slitta (peso variabile per categoria). Movimento molto tassante per la parte bassa, con grande richiesta su core e cosce."
+  },
+  {
+    "id": "sled-pull",
+    "icon": "sled",
+    "name": "Sled Pull (traino)",
+    "short": "50m",
+    "tagline": "Traino slitta: glutei, schiena, bicipiti e tronco.",
+    "description": "50m Sled Pull: tiro della slitta. Coinvolge glutei, schiena, bicipiti e la stabilità di tutto il tronco."
+  },
+  {
+    "id": "burpee",
+    "icon": "burpee",
+    "name": "Burpee Broad Jump",
+    "short": "80m",
+    "tagline": "Burpee + salto in lungo: full body e cardio.",
+    "description": "80m Burpee Broad Jump: burpees con avanzamento tramite salto in lungo. Stazione total body, intensa e tecnica."
+  },
+  {
+    "id": "row",
+    "icon": "row",
+    "name": "Rowing (vogatore)",
+    "short": "1000m",
+    "tagline": "1000m al vogatore: ritmo e resistenza.",
+    "description": "1000m Row: seconda macchina Erg della gara. Richiede gestione del ritmo e resistenza nella seconda metà del percorso."
+  },
+  {
+    "id": "carry",
+    "icon": "carry",
+    "name": "Farmer’s Carry",
+    "short": "200m",
+    "tagline": "Camminata con carichi: presa, core e upper back.",
+    "description": "200m Farmers Carry: camminata con due kettlebell (una per mano). Richiede presa, tenuta del core e stabilità della parte alta della schiena."
+  },
+  {
+    "id": "lunges",
+    "icon": "lunges",
+    "name": "Sandbag Lunges",
+    "short": "100m",
+    "tagline": "Affondi con carico: glutei e cosce in fiamme.",
+    "description": "100m Sandbag Lunges: affondi con sacco di sabbia sulle spalle. Target principale: cosce e glutei; stazione molto “bruciante”."
+  },
+  {
+    "id": "wallballs",
+    "icon": "wallballs",
+    "name": "Wall Balls",
+    "short": "100 reps",
+    "tagline": "Squat + lancio al target: il gran finale.",
+    "description": "100 Wall Balls: lanci della palla medica verso un target al muro (con squat). È l’ultima stazione e va gestita con ritmo e tecnica."
+  }
+]
+

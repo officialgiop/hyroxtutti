@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ricette HYROX - Nutrizione per Atleti</title>
+  <meta name="description" content="Ricette bilanciate per HYROX: colazione, pranzo, cena, pre e post-workout. Nutrizione per performance.">
+  <link rel="stylesheet" href="/styles.css?v=12">
+</head>
+<body>
+
+  <!-- NAVBAR GLOBALE -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="/index.html" class="navbar__logo">🏋️ HYROX DIY</a>
+      <ul class="navbar__menu">
+        <li><a href="/stations.html" class="navbar__link">Stazioni</a></li>
+        <li><a href="/products.html" class="navbar__link">Attrezzatura</a></li>
+        <li><a href="/recipes.html" class="navbar__link">Ricette</a></li>
+      </ul>
+      <button class="navbar__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header>
+    <h1>🍽️ Ricette HYROX</h1>
+    <p class="subtitle">Nutrizione bilanciata per allenamento e recupero</p>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="recipesHero">
+      <p>Ricette semplici, veloci e bilanciate per supportare i tuoi allenamenti HYROX. <strong>Macronutrienti calcolati</strong> per ogni pasto.</p>
+      <div class="recipesStats">
+        <div class="recipeStat">
+          <span class="recipeStatNumber">25</span>
+          <span class="recipeStatLabel">Ricette</span>
+        </div>
+        <div class="recipeStat">
+          <span class="recipeStatNumber">~20min</span>
+          <span class="recipeStatLabel">Prep. media</span>
+        </div>
+        <div class="recipeStat">
+          <span class="recipeStatNumber">100%</span>
+          <span class="recipeStatLabel">Testate</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Filtri -->
+    <div class="filterBar">
+      <button class="filterBtn active" data-filter="all">Tutte</button>
+      <button class="filterBtn" data-filter="colazione">🌅 Colazione</button>
+      <button class="filterBtn" data-filter="pranzo">🍴 Pranzo</button>
+      <button class="filterBtn" data-filter="cena">🌙 Cena</button>
+      <button class="filterBtn" data-filter="pre-workout">⚡ Pre-Workout</button>
+      <button class="filterBtn" data-filter="post-workout">💪 Post-Workout</button>
+    </div>
+
+    <!-- Grid ricette -->
+    <div id="recipesGrid" class="recipesGrid">
+      <!-- Popolato dinamicamente da recipes-app.js -->
+    </div>
+
+    <!-- Sidebar Integratori -->
+    <aside class="recipesSidebar">
+      <h3>🥤 Integratori Consigliati</h3>
+      <div class="sidebarProduct">
+        <img src="https://via.placeholder.com/80x80.png?text=Whey" alt="Proteine">
+        <div>
+          <strong>Proteine Whey</strong>
+          <p>Post-workout essenziale</p>
+          <a href="/products.html#whey-isolate">Vedi →</a>
+        </div>
+      </div>
+      <div class="sidebarProduct">
+        <img src="https://via.placeholder.com/80x80.png?text=Creatine" alt="Creatina">
+        <div>
+          <strong>Creatina Monoidrato</strong>
+          <p>Forza e potenza</p>
+          <a href="/products.html#creatine">Vedi →</a>
+        </div>
+      </div>
+      <div class="sidebarProduct">
+        <img src="https://via.placeholder.com/80x80.png?text=Bars" alt="Barrette">
+        <div>
+          <strong>Barrette Proteiche</strong>
+          <p>Snack veloce 20g</p>
+          <a href="/products.html#protein-bars">Vedi →</a>
+        </div>
+      </div>
+    </aside>
+    <!-- SETTIMANA TIPO -->
+    <section class="weekSection">
+      <div class="weekHeader">
+        <h2>📅 Settimana Tipo HYROX</h2>
+        <p class="weekSubtitle">Piano alimentare con 3 allenamenti (Lun-Mer-Ven) + run 1km tra ogni stazione</p>
+      </div>
+
+      <div class="weekLegend">
+        <span class="legendItem legendItem--training">🏋️ Giorno allenamento</span>
+        <span class="legendItem legendItem--rest">🛌 Giorno riposo</span>
+        <span class="legendItem legendItem--active">🏃 Recupero attivo</span>
+      </div>
+
+      <div class="weekGrid">
+        
+        <!-- LUNEDÌ - ALLENAMENTO -->
+        <article class="dayCard dayCard--training">
+          <div class="dayHeader">
+            <h3>Lunedì</h3>
+            <span class="dayBadge dayBadge--training">ALLENAMENTO</span>
+          </div>
+          <div class="dayWorkout">
+            <strong>💪 Workout:</strong> 4 stazioni HYROX (SkiErg, Sled Push, Burpees, Row) + 4×1km run
+            <div class="workoutTime">⏱️ Durata: ~60 min | Intensità: Alta</div>
+          </div>
+          <div class="dayMeals">
+            <div class="meal">
+              <span class="mealTime">07:00</span>
+              <div class="mealContent">
+                <strong>Colazione</strong>
+                <p>Overnight Oats Proteici</p>
+                <span class="mealMacros">450 kcal • 32g P • 52g C • 12g F</span>
+              </div>
+            </div>
+            <div class="meal meal--pre">
+              <span class="mealTime">17:00</span>
+              <div class="mealContent">
+                <strong>Pre-Workout</strong>
+                <p>Toast Burro Arachidi e Banana</p>
+                <span class="mealMacros">320 kcal • 12g P • 48g C • 10g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">13:00</span>
+              <div class="mealContent">
+                <strong>Pranzo</strong>
+                <p>Chicken Burrito Bowl</p>
+                <span class="mealMacros">520 kcal • 42g P • 58g C • 12g F</span>
+              </div>
+            </div>
+            <div class="meal meal--post">
+              <span class="mealTime">19:00</span>
+              <div class="mealContent">
+                <strong>Post-Workout</strong>
+                <p>Protein Shake con Frutti di Bosco</p>
+                <span class="mealMacros">280 kcal • 35g P • 32g C • 3g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">20:30</span>
+              <div class="mealContent">
+                <strong>Cena</strong>
+                <p>Pollo alla Piastra con Verdure Grigliate</p>
+                <span class="mealMacros">420 kcal • 45g P • 28g C • 14g F</span>
+              </div>
+            </div>
+          </div>
+          <div class="dayTotal">
+            <strong>Totale giornaliero:</strong> 1.990 kcal • 166g P • 218g C • 51g F
+          </div>
+        </article>
+
+        <!-- MARTEDÌ - RIPOSO -->
+        <article class="dayCard dayCard--rest">
+          <div class="dayHeader">
+            <h3>Martedì</h3>
+            <span class="dayBadge dayBadge--rest">RIPOSO</span>
+          </div>
+          <div class="dayWorkout">
+            <strong>🧘 Recovery:</strong> Stretching leggero 15 min + camminata 30 min
+            <div class="workoutTime">Focus: Recupero muscolare e mobilità</div>
+          </div>
+          <div class="dayMeals">
+            <div class="meal">
+              <span class="mealTime">08:00</span>
+              <div class="mealContent">
+                <strong>Colazione</strong>
+                <p>Greek Yogurt Bowl Energetico</p>
+                <span class="mealMacros">420 kcal • 35g P • 48g C • 11g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">13:30</span>
+              <div class="mealContent">
+                <strong>Pranzo</strong>
+                <p>Quinoa Buddha Bowl</p>
+                <span class="mealMacros">460 kcal • 24g P • 54g C • 18g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">16:00</span>
+              <div class="mealContent">
+                <strong>Snack</strong>
+                <p>Barretta proteica + frutta</p>
+                <span class="mealMacros">220 kcal • 20g P • 25g C • 5g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">20:00</span>
+              <div class="mealContent">
+                <strong>Cena</strong>
+                <p>Frittata di Verdure al Forno</p>
+                <span class="mealMacros">280 kcal • 22g P • 18g C • 14g F</span>
+              </div>
+            </div>
+          </div>
+          <div class="dayTotal">
+            <strong>Totale giornaliero:</strong> 1.380 kcal • 101g P • 145g C • 48g F
+          </div>
+        </article>
+
+        <!-- MERCOLEDÌ - ALLENAMENTO -->
+        <article class="dayCard dayCard--training">
+          <div class="dayHeader">
+            <h3>Mercoledì</h3>
+            <span class="dayBadge dayBadge--training">ALLENAMENTO</span>
+          </div>
+          <div class="dayWorkout">
+            <strong>💪 Workout:</strong> 4 stazioni HYROX (Sled Pull, Farmer's Carry, Lunges, Wall Balls) + 4×1km run
+            <div class="workoutTime">⏱️ Durata: ~60 min | Intensità: Alta</div>
+          </div>
+          <div class="dayMeals">
+            <div class="meal">
+              <span class="mealTime">07:00</span>
+              <div class="mealContent">
+                <strong>Colazione</strong>
+                <p>Pancake Proteici 3 Ingredienti</p>
+                <span class="mealMacros">380 kcal • 28g P • 42g C • 10g F</span>
+              </div>
+            </div>
+            <div class="meal meal--pre">
+              <span class="mealTime">17:00</span>
+              <div class="mealContent">
+                <strong>Pre-Workout</strong>
+                <p>Energy Balls Dattili (2 pezzi) + banana</p>
+                <span class="mealMacros">290 kcal • 8g P • 52g C • 8g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">13:00</span>
+              <div class="mealContent">
+                <strong>Pranzo</strong>
+                <p>Salmone al Forno con Patate</p>
+                <span class="mealMacros">510 kcal • 36g P • 42g C • 20g F</span>
+              </div>
+            </div>
+            <div class="meal meal--post">
+              <span class="mealTime">19:00</span>
+              <div class="mealContent">
+                <strong>Post-Workout</strong>
+                <p>Riso con Uova e Spinaci</p>
+                <span class="mealMacros">460 kcal • 28g P • 62g C • 10g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">21:00</span>
+              <div class="mealContent">
+                <strong>Cena</strong>
+                <p>Stir-Fry Manzo con Broccoli</p>
+                <span class="mealMacros">450 kcal • 38g P • 32g C • 18g F</span>
+              </div>
+            </div>
+          </div>
+          <div class="dayTotal">
+            <strong>Totale giornaliero:</strong> 2.090 kcal • 138g P • 230g C • 66g F
+          </div>
+        </article>
+
+        <!-- GIOVEDÌ - RECUPERO ATTIVO -->
+        <article class="dayCard dayCard--active">
+          <div class="dayHeader">
+            <h3>Giovedì</h3>
+            <span class="dayBadge dayBadge--active">RECUPERO ATTIVO</span>
+          </div>
+          <div class="dayWorkout">
+            <strong>🏃 Active Recovery:</strong> Run leggero 5km (zona 2) + core work 15 min
+            <div class="workoutTime">⏱️ Durata: ~40 min | Intensità: Bassa-Media</div>
+          </div>
+          <div class="dayMeals">
+            <div class="meal">
+              <span class="mealTime">07:30</span>
+              <div class="mealContent">
+                <strong>Colazione</strong>
+                <p>Smoothie Bowl Post-Run</p>
+                <span class="mealMacros">410 kcal • 30g P • 56g C • 8g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">13:00</span>
+              <div class="mealContent">
+                <strong>Pranzo</strong>
+                <p>Pasta Integrale con Tonno e Olive</p>
+                <span class="mealMacros">480 kcal • 32g P • 62g C • 11g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">16:30</span>
+              <div class="mealContent">
+                <strong>Snack</strong>
+                <p>Yogurt greco + mandorle</p>
+                <span class="mealMacros">200 kcal • 18g P • 15g C • 8g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">20:00</span>
+              <div class="mealContent">
+                <strong>Cena</strong>
+                <p>Merluzzo al Cartoccio con Limone</p>
+                <span class="mealMacros">320 kcal • 42g P • 22g C • 8g F</span>
+              </div>
+            </div>
+          </div>
+          <div class="dayTotal">
+            <strong>Totale giornaliero:</strong> 1.410 kcal • 122g P • 155g C • 35g F
+          </div>
+        </article>
+
+        <!-- VENERDÌ - ALLENAMENTO -->
+        <article class="dayCard dayCard--training">
+          <div class="dayHeader">
+            <h3>Venerdì</h3>
+            <span class="dayBadge dayBadge--training">ALLENAMENTO</span>
+          </div>
+          <div class="dayWorkout">
+            <strong>💪 Workout:</strong> HYROX completo simulazione (8 stazioni + 8×1km run)
+            <div class="workoutTime">⏱️ Durata: ~75-90 min | Intensità: Molto Alta</div>
+          </div>
+          <div class="dayMeals">
+            <div class="meal">
+              <span class="mealTime">07:00</span>
+              <div class="mealContent">
+                <strong>Colazione</strong>
+                <p>Uova Strapazzate con Avocado Toast</p>
+                <span class="mealMacros">480 kcal • 26g P • 38g C • 24g F</span>
+              </div>
+            </div>
+            <div class="meal meal--pre">
+              <span class="mealTime">16:30</span>
+              <div class="mealContent">
+                <strong>Pre-Workout</strong>
+                <p>Riso Basmati con Pollo e Miele</p>
+                <span class="mealMacros">420 kcal • 32g P • 58g C • 6g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">12:30</span>
+              <div class="mealContent">
+                <strong>Pranzo</strong>
+                <p>Wrap di Tacchino e Hummus</p>
+                <span class="mealMacros">440 kcal • 38g P • 46g C • 12g F</span>
+              </div>
+            </div>
+            <div class="meal meal--post">
+              <span class="mealTime">18:30</span>
+              <div class="mealContent">
+                <strong>Post-Workout</strong>
+                <p>Patate Dolci con Tonno</p>
+                <span class="mealMacros">420 kcal • 36g P • 58g C • 6g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">20:30</span>
+              <div class="mealContent">
+                <strong>Cena</strong>
+                <p>Recovery Bowl con Salmone</p>
+                <span class="mealMacros">490 kcal • 38g P • 48g C • 18g F</span>
+              </div>
+            </div>
+          </div>
+          <div class="dayTotal">
+            <strong>Totale giornaliero:</strong> 2.250 kcal • 170g P • 248g C • 66g F
+          </div>
+        </article>
+
+        <!-- SABATO - RIPOSO -->
+        <article class="dayCard dayCard--rest">
+          <div class="dayHeader">
+            <h3>Sabato</h3>
+            <span class="dayBadge dayBadge--rest">RIPOSO</span>
+          </div>
+          <div class="dayWorkout">
+            <strong>🧘 Recovery:</strong> Yoga/Pilates 30 min + foam rolling 15 min
+            <div class="workoutTime">Focus: Flessibilità e recupero profondo</div>
+          </div>
+          <div class="dayMeals">
+            <div class="meal">
+              <span class="mealTime">09:00</span>
+              <div class="mealContent">
+                <strong>Brunch</strong>
+                <p>Pancake Proteici + Greek Yogurt</p>
+                <span class="mealMacros">600 kcal • 42g P • 68g C • 16g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">14:00</span>
+              <div class="mealContent">
+                <strong>Pranzo</strong>
+                <p>Chili di Tacchino Leggero</p>
+                <span class="mealMacros">380 kcal • 36g P • 42g C • 8g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">17:00</span>
+              <div class="mealContent">
+                <strong>Snack</strong>
+                <p>Energy balls (2) + caffè</p>
+                <span class="mealMacros">190 kcal • 6g P • 28g C • 8g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">20:00</span>
+              <div class="mealContent">
+                <strong>Cena</strong>
+                <p>Salmone al Forno con Patate</p>
+                <span class="mealMacros">510 kcal • 36g P • 42g C • 20g F</span>
+              </div>
+            </div>
+          </div>
+          <div class="dayTotal">
+            <strong>Totale giornaliero:</strong> 1.680 kcal • 120g P • 180g C • 52g F
+          </div>
+        </article>
+
+        <!-- DOMENICA - RECUPERO ATTIVO -->
+        <article class="dayCard dayCard--active">
+          <div class="dayHeader">
+            <h3>Domenica</h3>
+            <span class="dayBadge dayBadge--active">RECUPERO ATTIVO</span>
+          </div>
+          <div class="dayWorkout">
+            <strong>🚴 Active Recovery:</strong> Bici/nuoto 45 min (zona 1-2) oppure escursione
+            <div class="workoutTime">⏱️ Durata: ~45 min | Intensità: Bassa</div>
+          </div>
+          <div class="dayMeals">
+            <div class="meal">
+              <span class="mealTime">08:30</span>
+              <div class="mealContent">
+                <strong>Colazione</strong>
+                <p>Overnight Oats Proteici</p>
+                <span class="mealMacros">450 kcal • 32g P • 52g C • 12g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">13:30</span>
+              <div class="mealContent">
+                <strong>Pranzo</strong>
+                <p>Quinoa Buddha Bowl</p>
+                <span class="mealMacros">460 kcal • 24g P • 54g C • 18g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">16:00</span>
+              <div class="mealContent">
+                <strong>Snack</strong>
+                <p>Smoothie proteico</p>
+                <span class="mealMacros">250 kcal • 25g P • 30g C • 4g F</span>
+              </div>
+            </div>
+            <div class="meal">
+              <span class="mealTime">20:00</span>
+              <div class="mealContent">
+                <strong>Cena</strong>
+                <p>Pasta con Petto di Pollo e Pesto</p>
+                <span class="mealMacros">520 kcal • 42g P • 64g C • 12g F</span>
+              </div>
+            </div>
+          </div>
+          <div class="dayTotal">
+            <strong>Totale giornaliero:</strong> 1.680 kcal • 123g P • 200g C • 46g F
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Note Finali -->
+      <div class="weekNotes">
+        <h3>📝 Note Nutrizionali</h3>
+        <ul>
+          <li><strong>Media settimanale:</strong> ~1.780 kcal/giorno • 134g proteine • 196g carboidrati • 52g grassi</li>
+          <li><strong>Giorni allenamento:</strong> Carboidrati aumentati pre/post workout per energia e recupero</li>
+          <li><strong>Giorni riposo:</strong> Calorie ridotte, focus su proteine per recupero muscolare</li>
+          <li><strong>Idratazione:</strong> 2.5-3L acqua/giorno (aumenta nei giorni allenamento)</li>
+          <li><strong>Timing:</strong> Pre-workout 60-90 min prima, post-workout entro 30-60 min</li>
+          <li><strong>Integratori consigliati:</strong> Creatina 5g/giorno, Omega-3, Vitamina D, elettroliti durante workout lunghi</li>
+        </ul>
+      </div>
+
+      <div class="weekCTA">
+        <p>💡 <strong>Tip:</strong> Prepara le ricette in batch la domenica per risparmiare tempo durante la settimana!</p>
+        <a href="#recipesGrid" class="btn btn--primary">Vedi tutte le ricette →</a>
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+
+  </main>
+
+  <script src="/recipes-app.js?v=12"></script>
+  <script src="/navbar.js?v=12"></script>
+
+</body>
+</html>
+

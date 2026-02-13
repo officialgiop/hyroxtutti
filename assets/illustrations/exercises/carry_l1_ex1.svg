@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      .primary { fill: #2d6a4f; }
+      .secondary { fill: #52b788; }
+      .tertiary { fill: #95d5b2; }
+      .outline { fill: none; stroke: #1a1a1a; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .equipment { fill: #6b6b6b; opacity: 0.6; }
+    </style>
+  </defs>
+  <rect width="200" height="200" fill="#f5f5f0"/>
+
+  <!-- Persona che cammina con pesi -->
+  <circle cx="100" cy="55" r="12" class="primary"/>
+  <line x1="100" y1="67" x2="100" y2="110" class="outline"/>
+  <line x1="100" y1="77" x2="75" y2="95" class="outline"/>
+  <line x1="100" y1="77" x2="125" y2="95" class="outline"/>
+  <line x1="100" y1="110" x2="85" y2="145" class="outline"/>
+  <line x1="100" y1="110" x2="115" y2="145" class="outline"/>
+  <!-- Pesi nelle mani -->
+  <rect x="65" y="90" width="15" height="25" rx="3" class="secondary"/>
+  <rect x="120" y="90" width="15" height="25" rx="3" class="secondary"/>
+  <!-- Traccia di movimento -->
+  <path d="M 140 160 L 160 160" class="tertiary" stroke-width="3" stroke-dasharray="5,5"/>
+</svg>

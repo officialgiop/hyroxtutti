@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      .primary { fill: #2d6a4f; }
+      .secondary { fill: #52b788; }
+      .tertiary { fill: #95d5b2; }
+      .outline { fill: none; stroke: #1a1a1a; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+      .equipment { fill: #6b6b6b; opacity: 0.6; }
+    </style>
+  </defs>
+  <rect width="200" height="200" fill="#f5f5f0"/>
+
+  <!-- Persona che salta -->
+  <circle cx="100" cy="45" r="12" class="primary"/>
+  <line x1="100" y1="57" x2="100" y2="90" class="outline"/>
+  <line x1="100" y1="65" x2="80" y2="55" class="outline"/>
+  <line x1="100" y1="65" x2="120" y2="55" class="outline"/>
+  <line x1="100" y1="90" x2="90" y2="110" class="outline"/>
+  <line x1="100" y1="90" x2="110" y2="110" class="outline"/>
+  <!-- Movimento verso l'alto -->
+  <path d="M 100 120 L 100 140" class="secondary" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 90 135 L 100 120 L 110 135" fill="{colors['accent2']}" opacity="0.7"/>
+  <!-- Base/pavimento -->
+  <line x1="60" y1="160" x2="140" y2="160" class="equipment" stroke-width="4"/>
+</svg>

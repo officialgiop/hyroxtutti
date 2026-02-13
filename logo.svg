@@ -1,0 +1,41 @@
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background opzionale -->
+  <rect width="300" height="120" fill="#ffffff" rx="8"/>
+  
+  <!-- HYROX (prima riga) -->
+  <text x="150" y="45" 
+        font-family="Inter, -apple-system, sans-serif" 
+        font-size="32" 
+        font-weight="800" 
+        fill="#2d6a4f" 
+        text-anchor="middle">
+    HYROX
+  </text>
+  
+  <!-- TUTTI (seconda riga) -->
+  <text x="150" y="75" 
+        font-family="Inter, -apple-system, sans-serif" 
+        font-size="32" 
+        font-weight="800" 
+        fill="#2d6a4f" 
+        text-anchor="middle">
+    TUTTI
+  </text>
+  
+  <!-- Linea separatore -->
+  <line x1="80" y1="85" x2="220" y2="85" 
+        stroke="#52b788" 
+        stroke-width="3"/>
+  
+  <!-- Tagline (terza riga) -->
+  <text x="150" y="105" 
+        font-family="Inter, -apple-system, sans-serif" 
+        font-size="12" 
+        font-weight="500" 
+        fill="#6b6b6b" 
+        text-anchor="middle"
+        letter-spacing="2">
+    LIVELLO 1 · 2 · 3
+  </text>
+</svg>
+
