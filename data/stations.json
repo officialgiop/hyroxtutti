@@ -149,21 +149,21 @@
           "title": "Sprint sul posto",
           "setup": "Corri sul posto portando le ginocchia alte. Spingi con le braccia.",
           "dose": "5×20 secondi",
-          "img": "/assets/illustrations/exercises/sled_push_l1_ex3.svg",
+          "img": "assets/illustrations/exercises/sled_push_l1_ex3.svg",
           "alt": "Sprint sul posto ad alta intensità"
         },
         {
           "title": "Squat Jump",
           "setup": "Squat profondo seguito da salto esplosivo. Atterra morbido.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_push_l1_ex4.svg",
+          "img": "assets/illustrations/exercises/sled_push_l1_ex4.svg",
           "alt": "Squat jump esplosivo"
         },
         {
           "title": "High Knees (ginocchia alte)",
           "setup": "Corri sul posto portando le ginocchia all'altezza del bacino.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/sled_push_l1_ex5.svg",
+          "img": "assets/illustrations/exercises/sled_push_l1_ex5.svg",
           "alt": "High knees per attivazione gambe"
         }
       ],
@@ -172,35 +172,35 @@
           "title": "Sedia Push (spinta mobile)",
           "setup": "Spingi una sedia su pavimento liscio mantenendo il corpo inclinato.",
           "dose": "3×20 metri",
-          "img": "/assets/illustrations/exercises/sled_push_l2_ex1.svg",
+          "img": "assets/illustrations/exercises/sled_push_l2_ex1.svg",
           "alt": "Spinta sedia come slitta improvvisata"
         },
         {
           "title": "Zaino carico + Sprint",
           "setup": "Zaino da 8-12kg. Sprint su brevi distanze.",
           "dose": "4×15 metri",
-          "img": "/assets/illustrations/exercises/sled_push_l2_ex2.svg",
+          "img": "assets/illustrations/exercises/sled_push_l2_ex2.svg",
           "alt": "Sprint con zaino carico"
         },
         {
           "title": "Step-up esplosivo (sedia o gradino)",
           "setup": "Sali su sedia stabile con spinta esplosiva. Alterna le gambe.",
           "dose": "3×12 per gamba",
-          "img": "/assets/illustrations/exercises/sled_push_l2_ex3.svg",
+          "img": "assets/illustrations/exercises/sled_push_l2_ex3.svg",
           "alt": "Step-up dinamico su rialzo"
         },
         {
           "title": "Elastico Push (resistenza frontale)",
           "setup": "Elastico intorno al busto, ancorato dietro. Spingi in avanti camminando.",
           "dose": "3×20 metri",
-          "img": "/assets/illustrations/exercises/sled_push_l2_ex4.svg",
+          "img": "assets/illustrations/exercises/sled_push_l2_ex4.svg",
           "alt": "Camminata con resistenza elastico"
         },
         {
           "title": "Broad Jump (salto in lungo)",
           "setup": "Salto in lungo da fermo con massima spinta delle gambe.",
           "dose": "4×8 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_push_l2_ex5.svg",
+          "img": "assets/illustrations/exercises/sled_push_l2_ex5.svg",
           "alt": "Salto in lungo per potenza gambe"
         }
       ],
@@ -209,35 +209,35 @@
           "title": "Slitta DIY carica (pneumatico + corda)",
           "setup": "Pneumatico pesante legato a cintura. Spingilo in avanti.",
           "dose": "3×30 metri",
-          "img": "/assets/illustrations/exercises/sled_push_l3_ex1.svg",
+          "img": "assets/illustrations/exercises/sled_push_l3_ex1.svg",
           "alt": "Spinta pneumatico carico"
         },
         {
           "title": "Prowler Push (se disponibile)",
           "setup": "Slitta Prowler con carico 20-40kg. Spingi a corpo inclinato.",
           "dose": "4×25 metri",
-          "img": "/assets/illustrations/exercises/sled_push_l3_ex2.svg",
+          "img": "assets/illustrations/exercises/sled_push_l3_ex2.svg",
           "alt": "Spinta prowler sled"
         },
         {
           "title": "Kettlebell Goblet Squat + Press",
           "setup": "Kettlebell 16-20kg. Squat profondo e spingi sopra la testa.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_push_l3_ex3.svg",
+          "img": "assets/illustrations/exercises/sled_push_l3_ex3.svg",
           "alt": "Goblet squat con press"
         },
         {
           "title": "Hill Sprint (salita ripida)",
           "setup": "Trova una salita ripida. Sprint massimale per 15-20 secondi.",
           "dose": "5×20 secondi",
-          "img": "/assets/illustrations/exercises/sled_push_l3_ex4.svg",
+          "img": "assets/illustrations/exercises/sled_push_l3_ex4.svg",
           "alt": "Sprint in salita"
         },
         {
           "title": "Box Jump alto (60+ cm)",
           "setup": "Salto esplosivo su box/gradino alto. Atterraggio controllato.",
           "dose": "4×8 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_push_l3_ex5.svg",
+          "img": "assets/illustrations/exercises/sled_push_l3_ex5.svg",
           "alt": "Box jump su rialzo alto"
         }
       ]
@@ -257,35 +257,35 @@
           "title": "Towel Row (rematore con asciugamano)",
           "setup": "Asciugamano avvolto intorno a un palo fisso. Tira verso di te in posizione squat.",
           "dose": "3×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_pull_l1_ex1.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l1_ex1.svg",
           "alt": "Rematore con asciugamano"
         },
         {
           "title": "Reverse Bear Crawl",
           "setup": "Quadrupedia al contrario. Muoviti all'indietro spingendo con le mani.",
           "dose": "3×10 metri",
-          "img": "/assets/illustrations/exercises/sled_pull_l1_ex2.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l1_ex2.svg",
           "alt": "Bear crawl inverso"
         },
         {
           "title": "Superman alternato",
           "setup": "A terra prono. Solleva braccio e gamba opposti simulando trazione.",
           "dose": "3×12 per lato",
-          "img": "/assets/illustrations/exercises/sled_pull_l1_ex3.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l1_ex3.svg",
           "alt": "Superman per catena posteriore"
         },
         {
           "title": "Glute Bridge (ponte glutei)",
           "setup": "Supino, piedi a terra. Solleva i fianchi contraendo i glutei.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_pull_l1_ex4.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l1_ex4.svg",
           "alt": "Ponte glutei per attivazione posteriore"
         },
         {
           "title": "Dead Bug (insetto morto)",
           "setup": "Supino, braccia e gambe sollevate. Alterna estensioni opposte controllate.",
           "dose": "3×10 per lato",
-          "img": "/assets/illustrations/exercises/sled_pull_l1_ex5.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l1_ex5.svg",
           "alt": "Dead bug per stabilità core"
         }
       ],
@@ -294,35 +294,35 @@
           "title": "Elastico Row (rematore)",
           "setup": "Elastico ancorato davanti. Tira verso il petto in posizione squat.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_pull_l2_ex1.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l2_ex1.svg",
           "alt": "Rematore con banda elastica"
         },
         {
           "title": "Zaino carico + Reverse Walk",
           "setup": "Zaino 8-10kg. Cammina all'indietro mantenendo postura eretta.",
           "dose": "3×20 metri",
-          "img": "/assets/illustrations/exercises/sled_pull_l2_ex2.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l2_ex2.svg",
           "alt": "Camminata indietro con carico"
         },
         {
           "title": "Asciugamano Curl (bicipiti)",
           "setup": "Asciugamano sotto i piedi. Tira verso l'alto con le braccia.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_pull_l2_ex3.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l2_ex3.svg",
           "alt": "Curl bicipiti con asciugamano"
         },
         {
           "title": "Single Leg Deadlift (bottiglie acqua)",
           "setup": "Una bottiglia per mano. Bilancia su una gamba e inclina il busto.",
           "dose": "3×10 per gamba",
-          "img": "/assets/illustrations/exercises/sled_pull_l2_ex4.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l2_ex4.svg",
           "alt": "Stacco a gamba singola"
         },
         {
           "title": "Inverted Row (sotto tavolo)",
           "setup": "Sotto un tavolo robusto. Afferra il bordo e tira il petto verso l'alto.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_pull_l2_ex5.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l2_ex5.svg",
           "alt": "Trazione inversa sotto tavolo"
         }
       ],
@@ -331,35 +331,35 @@
           "title": "TRX Row (rematore sospeso)",
           "setup": "TRX ancorato. Corpo inclinato, tira il petto verso le maniglie.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_pull_l3_ex1.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l3_ex1.svg",
           "alt": "Rematore TRX"
         },
         {
           "title": "Kettlebell Swing pesante",
           "setup": "Kettlebell 16-24kg. Swing esplosivo portando il peso all'altezza del petto.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_pull_l3_ex2.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l3_ex2.svg",
           "alt": "Kettlebell swing"
         },
         {
           "title": "Sled Pull reale (corda + peso)",
           "setup": "Slitta carica legata a corda. Tira camminando all'indietro.",
           "dose": "3×25 metri",
-          "img": "/assets/illustrations/exercises/sled_pull_l3_ex3.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l3_ex3.svg",
           "alt": "Traino slitta con corda"
         },
         {
           "title": "Renegade Row (manubri)",
           "setup": "Plank con manubri 8-12kg. Alterna rematore portando il peso al fianco.",
           "dose": "3×10 per braccio",
-          "img": "/assets/illustrations/exercises/sled_pull_l3_ex4.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l3_ex4.svg",
           "alt": "Renegade row in plank"
         },
         {
           "title": "Romanian Deadlift (manubri/bilanciere)",
           "setup": "Manubri/bilanciere 15-30kg. Stacco rumeno con gambe semi-tese.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/sled_pull_l3_ex5.svg",
+          "img": "assets/illustrations/exercises/sled_pull_l3_ex5.svg",
           "alt": "Stacco rumeno con carico"
         }
       ]
@@ -379,35 +379,35 @@
           "title": "Burpee semplificato (no push-up)",
           "setup": "Scendi in plank, torna in piedi e salta in alto.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l1_ex1.svg",
+          "img": "assets/illustrations/exercises/burpee_l1_ex1.svg",
           "alt": "Burpee base senza piegamento"
         },
         {
           "title": "Step-back Burpee",
           "setup": "Porta i piedi indietro uno alla volta invece di saltare.",
           "dose": "3×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l1_ex2.svg",
+          "img": "assets/illustrations/exercises/burpee_l1_ex2.svg",
           "alt": "Burpee con step-back"
         },
         {
           "title": "Broad Jump (salto in lungo)",
           "setup": "Salto in lungo da fermo. Atterra in squat.",
           "dose": "4×8 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l1_ex3.svg",
+          "img": "assets/illustrations/exercises/burpee_l1_ex3.svg",
           "alt": "Salto in lungo da fermo"
         },
         {
           "title": "Squat Thrust",
           "setup": "Come burpee ma senza salto finale. Ritmo sostenuto.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l1_ex4.svg",
+          "img": "assets/illustrations/exercises/burpee_l1_ex4.svg",
           "alt": "Squat thrust veloce"
         },
         {
           "title": "Jumping Jacks",
           "setup": "Jumping jack classico per mantenere frequenza cardiaca alta.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/burpee_l1_ex5.svg",
+          "img": "assets/illustrations/exercises/burpee_l1_ex5.svg",
           "alt": "Jumping jacks cardio"
         }
       ],
@@ -416,35 +416,35 @@
           "title": "Burpee completo (con push-up)",
           "setup": "Burpee classico: plank, push-up, salto in alto.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l2_ex1.svg",
+          "img": "assets/illustrations/exercises/burpee_l2_ex1.svg",
           "alt": "Burpee completo con push-up"
         },
         {
           "title": "Burpee + Broad Jump",
           "setup": "Burpee seguito da salto in lungo. Atterraggio controllato.",
           "dose": "3×8 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l2_ex2.svg",
+          "img": "assets/illustrations/exercises/burpee_l2_ex2.svg",
           "alt": "Burpee con salto in lungo"
         },
         {
           "title": "Box Jump (rialzo 30-40cm)",
           "setup": "Salto su box/gradino. Scendi controllato.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l2_ex3.svg",
+          "img": "assets/illustrations/exercises/burpee_l2_ex3.svg",
           "alt": "Box jump su rialzo medio"
         },
         {
           "title": "Burpee con rotazione",
           "setup": "Burpee classico + rotazione di 180° durante il salto.",
           "dose": "3×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l2_ex4.svg",
+          "img": "assets/illustrations/exercises/burpee_l2_ex4.svg",
           "alt": "Burpee con rotazione"
         },
         {
           "title": "Tuck Jump",
           "setup": "Salto portando le ginocchia al petto. Atterraggio morbido.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l2_ex5.svg",
+          "img": "assets/illustrations/exercises/burpee_l2_ex5.svg",
           "alt": "Tuck jump esplosivo"
         }
       ],
@@ -453,35 +453,35 @@
           "title": "Burpee + Pull-up",
           "setup": "Burpee completo seguito da trazione alla sbarra/TRX.",
           "dose": "3×8 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l3_ex1.svg",
+          "img": "assets/illustrations/exercises/burpee_l3_ex1.svg",
           "alt": "Burpee con pull-up"
         },
         {
           "title": "Burpee con Manubri",
           "setup": "Manubri 5-8kg in mano durante tutto il movimento.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l3_ex2.svg",
+          "img": "assets/illustrations/exercises/burpee_l3_ex2.svg",
           "alt": "Burpee con manubri"
         },
         {
           "title": "Broad Jump massimale",
           "setup": "Salto in lungo con massima potenza. Misura la distanza.",
           "dose": "5×5 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l3_ex3.svg",
+          "img": "assets/illustrations/exercises/burpee_l3_ex3.svg",
           "alt": "Broad jump per massima distanza"
         },
         {
           "title": "Burpee over Box (scavalcamento)",
           "setup": "Burpee + salto scavalcando un box/ostacolo.",
           "dose": "3×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l3_ex4.svg",
+          "img": "assets/illustrations/exercises/burpee_l3_ex4.svg",
           "alt": "Burpee con scavalcamento ostacolo"
         },
         {
           "title": "Devil Press (2 manubri)",
           "setup": "Burpee con 2 manubri. Dal pavimento portali sopra la testa in un unico movimento.",
           "dose": "4×8 ripetizioni",
-          "img": "/assets/illustrations/exercises/burpee_l3_ex5.svg",
+          "img": "assets/illustrations/exercises/burpee_l3_ex5.svg",
           "alt": "Devil press esplosivo"
         }
       ]
@@ -501,35 +501,35 @@
           "title": "Plank Row (remata in plank)",
           "setup": "Posizione plank. Porta una mano al fianco alternando.",
           "dose": "3×10 per braccio",
-          "img": "/assets/illustrations/exercises/row_l1_ex1.svg",
+          "img": "assets/illustrations/exercises/row_l1_ex1.svg",
           "alt": "Remata in posizione plank"
         },
         {
           "title": "Glute Bridge + Chest Fly (a terra)",
           "setup": "Ponte glutei mantenuto. Apri e chiudi le braccia.",
           "dose": "3×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l1_ex2.svg",
+          "img": "assets/illustrations/exercises/row_l1_ex2.svg",
           "alt": "Ponte con chest fly"
         },
         {
           "title": "Mountain Climbers",
           "setup": "Plank. Porta alternativamente le ginocchia al petto.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/row_l1_ex3.svg",
+          "img": "assets/illustrations/exercises/row_l1_ex3.svg",
           "alt": "Mountain climbers"
         },
         {
           "title": "Hollow Hold",
           "setup": "Supino, solleva spalle e gambe. Mantieni posizione di barca.",
           "dose": "4×20 secondi",
-          "img": "/assets/illustrations/exercises/row_l1_ex4.svg",
+          "img": "assets/illustrations/exercises/row_l1_ex4.svg",
           "alt": "Hollow hold per core"
         },
         {
           "title": "High Knees",
           "setup": "Corsa sul posto con ginocchia alte. Ritmo sostenuto.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/row_l1_ex5.svg",
+          "img": "assets/illustrations/exercises/row_l1_ex5.svg",
           "alt": "High knees cardio"
         }
       ],
@@ -538,35 +538,35 @@
           "title": "Elastico Row seduto",
           "setup": "Seduto, gambe tese. Elastico intorno ai piedi. Tira verso il petto.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l2_ex1.svg",
+          "img": "assets/illustrations/exercises/row_l2_ex1.svg",
           "alt": "Rematore seduto con elastico"
         },
         {
           "title": "Bottiglie Row (piegato in avanti)",
           "setup": "Busto inclinato 45°. Bottiglie d'acqua in mano. Rema verso i fianchi.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l2_ex2.svg",
+          "img": "assets/illustrations/exercises/row_l2_ex2.svg",
           "alt": "Bent-over row con bottiglie"
         },
         {
           "title": "Sit-up + Punch",
           "setup": "Sit-up completo. In alto esegui 2 pugni esplosivi.",
           "dose": "3×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l2_ex3.svg",
+          "img": "assets/illustrations/exercises/row_l2_ex3.svg",
           "alt": "Sit-up con punch dinamico"
         },
         {
           "title": "Reverse Snow Angel (prono)",
           "setup": "A terra prono. Muovi le braccia dal basso verso l'alto descrivendo un arco.",
           "dose": "3×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l2_ex4.svg",
+          "img": "assets/illustrations/exercises/row_l2_ex4.svg",
           "alt": "Reverse snow angel per dorsali"
         },
         {
           "title": "Bicycle Crunch",
           "setup": "Supino. Alterna gomito con ginocchio opposto.",
           "dose": "4×20 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l2_ex5.svg",
+          "img": "assets/illustrations/exercises/row_l2_ex5.svg",
           "alt": "Bicycle crunch per obliqui"
         }
       ],
@@ -575,35 +575,35 @@
           "title": "TRX Row",
           "setup": "TRX ancorato. Corpo inclinato. Tira il petto verso le maniglie.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l3_ex1.svg",
+          "img": "assets/illustrations/exercises/row_l3_ex1.svg",
           "alt": "TRX row"
         },
         {
           "title": "Manubri Bent-over Row",
           "setup": "Manubri 8-12kg. Busto inclinato 45°. Rema verso i fianchi.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l3_ex2.svg",
+          "img": "assets/illustrations/exercises/row_l3_ex2.svg",
           "alt": "Bent-over row con manubri"
         },
         {
           "title": "Kettlebell Swing",
           "setup": "Kettlebell 16-20kg. Swing esplosivo fino all'altezza del petto.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/row_l3_ex3.svg",
+          "img": "assets/illustrations/exercises/row_l3_ex3.svg",
           "alt": "Kettlebell swing"
         },
         {
           "title": "Renegade Row",
           "setup": "Plank con manubri. Alterna rematore portando il peso al fianco.",
           "dose": "3×10 per braccio",
-          "img": "/assets/illustrations/exercises/row_l3_ex4.svg",
+          "img": "assets/illustrations/exercises/row_l3_ex4.svg",
           "alt": "Renegade row"
         },
         {
           "title": "Assault Bike / Air Bike",
           "setup": "Se disponibile: 250m al massimo sforzo. Altrimenti burpee.",
           "dose": "4×250m (o 15 burpee)",
-          "img": "/assets/illustrations/exercises/row_l3_ex5.svg",
+          "img": "assets/illustrations/exercises/row_l3_ex5.svg",
           "alt": "Assault bike cardio"
         }
       ]
@@ -623,35 +623,35 @@
           "title": "Bottiglie d'acqua Carry",
           "setup": "2 bottiglie da 1.5L. Cammina mantenendo postura eretta.",
           "dose": "3×30 metri",
-          "img": "/assets/illustrations/exercises/carry_l1_ex1.svg",
+          "img": "assets/illustrations/exercises/carry_l1_ex1.svg",
           "alt": "Farmer's carry con bottiglie"
         },
         {
           "title": "Plank statico",
           "setup": "Mantieni posizione plank con corpo allineato.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/carry_l1_ex2.svg",
+          "img": "assets/illustrations/exercises/carry_l1_ex2.svg",
           "alt": "Plank statico per core"
         },
         {
           "title": "Wall Sit (tenuta isometrica)",
           "setup": "Schiena al muro, gambe a 90°. Mantieni posizione.",
           "dose": "3×30 secondi",
-          "img": "/assets/illustrations/exercises/carry_l1_ex3.svg",
+          "img": "assets/illustrations/exercises/carry_l1_ex3.svg",
           "alt": "Wall sit isometrico"
         },
         {
           "title": "Dead Hang (appesi)",
           "setup": "Appeso a sbarra/porta. Mantieni presa passiva.",
           "dose": "3×20 secondi",
-          "img": "/assets/illustrations/exercises/carry_l1_ex4.svg",
+          "img": "assets/illustrations/exercises/carry_l1_ex4.svg",
           "alt": "Dead hang per presa"
         },
         {
           "title": "Shoulder Shrugs (alzate spalle)",
           "setup": "A corpo libero o con bottiglie. Alza e abbassa le spalle.",
           "dose": "3×20 ripetizioni",
-          "img": "/assets/illustrations/exercises/carry_l1_ex5.svg",
+          "img": "assets/illustrations/exercises/carry_l1_ex5.svg",
           "alt": "Shrugs per trapezio"
         }
       ],
@@ -660,35 +660,35 @@
           "title": "Zaino carico Carry",
           "setup": "Zaino 10-15kg. Cammina veloce mantenendo postura.",
           "dose": "3×50 metri",
-          "img": "/assets/illustrations/exercises/carry_l2_ex1.svg",
+          "img": "assets/illustrations/exercises/carry_l2_ex1.svg",
           "alt": "Farmer's carry con zaino"
         },
         {
           "title": "Overhead Carry (bottiglie sopra testa)",
           "setup": "2 bottiglie sopra la testa. Cammina lentamente.",
           "dose": "3×20 metri",
-          "img": "/assets/illustrations/exercises/carry_l2_ex2.svg",
+          "img": "assets/illustrations/exercises/carry_l2_ex2.svg",
           "alt": "Overhead carry"
         },
         {
           "title": "Single Arm Carry (asimmetrico)",
           "setup": "Bottiglia/peso in una mano sola. Alterna dopo metà distanza.",
           "dose": "3×30 metri per lato",
-          "img": "/assets/illustrations/exercises/carry_l2_ex3.svg",
+          "img": "assets/illustrations/exercises/carry_l2_ex3.svg",
           "alt": "Carry monolaterale"
         },
         {
           "title": "Suitcase Carry (lato corpo)",
           "setup": "Peso al lato del corpo come una valigia. Core stabilizza.",
           "dose": "3×30 metri per lato",
-          "img": "/assets/illustrations/exercises/carry_l2_ex4.svg",
+          "img": "assets/illustrations/exercises/carry_l2_ex4.svg",
           "alt": "Suitcase carry"
         },
         {
           "title": "Farmer Walk + Lunges",
           "setup": "Cammina con pesi facendo affondo ad ogni passo.",
           "dose": "3×20 metri",
-          "img": "/assets/illustrations/exercises/carry_l2_ex5.svg",
+          "img": "assets/illustrations/exercises/carry_l2_ex5.svg",
           "alt": "Farmer walk con affondo"
         }
       ],
@@ -697,35 +697,35 @@
           "title": "Farmer's Carry pesante (manubri/kettlebell)",
           "setup": "Manubri/KB 20-32kg totali. Cammina veloce.",
           "dose": "4×50 metri",
-          "img": "/assets/illustrations/exercises/carry_l3_ex1.svg",
+          "img": "assets/illustrations/exercises/carry_l3_ex1.svg",
           "alt": "Farmer's carry con carico pesante"
         },
         {
           "title": "Yoke Carry (se disponibile)",
           "setup": "Yoke carico sulle spalle. Cammina stabile.",
           "dose": "3×30 metri",
-          "img": "/assets/illustrations/exercises/carry_l3_ex2.svg",
+          "img": "assets/illustrations/exercises/carry_l3_ex2.svg",
           "alt": "Yoke carry"
         },
         {
           "title": "Sandbag Carry (sacco sabbia)",
           "setup": "Sacco 20-30kg sulle spalle. Cammina o corri.",
           "dose": "3×40 metri",
-          "img": "/assets/illustrations/exercises/carry_l3_ex3.svg",
+          "img": "assets/illustrations/exercises/carry_l3_ex3.svg",
           "alt": "Sandbag carry"
         },
         {
           "title": "Overhead KB/DB Walk",
           "setup": "Kettlebell/manubrio 12-16kg sopra la testa. Cammina lento.",
           "dose": "3×30 metri per braccio",
-          "img": "/assets/illustrations/exercises/carry_l3_ex4.svg",
+          "img": "assets/illustrations/exercises/carry_l3_ex4.svg",
           "alt": "Overhead walk monolaterale"
         },
         {
           "title": "Trap Bar Carry (se disponibile)",
           "setup": "Trap bar carica. Farmer walk con presa neutra.",
           "dose": "4×40 metri",
-          "img": "/assets/illustrations/exercises/carry_l3_ex5.svg",
+          "img": "assets/illustrations/exercises/carry_l3_ex5.svg",
           "alt": "Trap bar carry"
         }
       ]
@@ -745,35 +745,35 @@
           "title": "Reverse Lunge (affondo indietro)",
           "setup": "Porta una gamba indietro. Scendi fino a 90°. Alterna.",
           "dose": "3×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l1_ex1.svg",
+          "img": "assets/illustrations/exercises/lunges_l1_ex1.svg",
           "alt": "Affondo indietro"
         },
         {
           "title": "Static Lunge (affondo statico)",
           "setup": "Mantieni posizione di affondo. Sali e scendi senza cambiare gamba.",
           "dose": "3×12 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l1_ex2.svg",
+          "img": "assets/illustrations/exercises/lunges_l1_ex2.svg",
           "alt": "Affondo statico"
         },
         {
           "title": "Step-up su sedia",
           "setup": "Sali su sedia stabile alternando le gambe.",
           "dose": "3×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l1_ex3.svg",
+          "img": "assets/illustrations/exercises/lunges_l1_ex3.svg",
           "alt": "Step-up su rialzo"
         },
         {
           "title": "Glute Bridge monogamba",
           "setup": "Ponte su una gamba sola. Alterna.",
           "dose": "3×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l1_ex4.svg",
+          "img": "assets/illustrations/exercises/lunges_l1_ex4.svg",
           "alt": "Ponte glutei monogamba"
         },
         {
           "title": "Squat a corpo libero",
           "setup": "Squat classico con coscie parallele al pavimento.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/lunges_l1_ex5.svg",
+          "img": "assets/illustrations/exercises/lunges_l1_ex5.svg",
           "alt": "Squat a corpo libero"
         }
       ],
@@ -782,35 +782,35 @@
           "title": "Walking Lunge (affondo camminato)",
           "setup": "Affondo in avanti alternando le gambe ad ogni passo.",
           "dose": "3×20 metri",
-          "img": "/assets/illustrations/exercises/lunges_l2_ex1.svg",
+          "img": "assets/illustrations/exercises/lunges_l2_ex1.svg",
           "alt": "Walking lunge"
         },
         {
           "title": "Lunge con bottiglie d'acqua",
           "setup": "Bottiglia in ogni mano. Affondo classico.",
           "dose": "3×12 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l2_ex2.svg",
+          "img": "assets/illustrations/exercises/lunges_l2_ex2.svg",
           "alt": "Lunge con peso"
         },
         {
           "title": "Lateral Lunge (affondo laterale)",
           "setup": "Porta una gamba di lato. Scendi piegando quella gamba.",
           "dose": "3×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l2_ex3.svg",
+          "img": "assets/illustrations/exercises/lunges_l2_ex3.svg",
           "alt": "Affondo laterale"
         },
         {
           "title": "Reverse Lunge + Knee Drive",
           "setup": "Affondo indietro + porta ginocchio al petto tornando su.",
           "dose": "3×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l2_ex4.svg",
+          "img": "assets/illustrations/exercises/lunges_l2_ex4.svg",
           "alt": "Reverse lunge con knee drive"
         },
         {
           "title": "Bulgarian Split Squat (piede rialzato dietro)",
           "setup": "Piede posteriore su sedia. Scendi in affondo.",
           "dose": "3×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l2_ex5.svg",
+          "img": "assets/illustrations/exercises/lunges_l2_ex5.svg",
           "alt": "Bulgarian split squat"
         }
       ],
@@ -819,35 +819,35 @@
           "title": "Walking Lunge con manubri/KB",
           "setup": "Manubri 8-12kg per mano. Affondo camminato.",
           "dose": "4×25 metri",
-          "img": "/assets/illustrations/exercises/lunges_l3_ex1.svg",
+          "img": "assets/illustrations/exercises/lunges_l3_ex1.svg",
           "alt": "Walking lunge con manubri"
         },
         {
           "title": "Overhead Lunge (peso sopra testa)",
           "setup": "Manubrio/KB sopra la testa. Affondo alternato.",
           "dose": "3×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l3_ex2.svg",
+          "img": "assets/illustrations/exercises/lunges_l3_ex2.svg",
           "alt": "Overhead lunge"
         },
         {
           "title": "Jumping Lunge (affondo saltato)",
           "setup": "Affondo + salto cambiando gamba in aria.",
           "dose": "4×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l3_ex3.svg",
+          "img": "assets/illustrations/exercises/lunges_l3_ex3.svg",
           "alt": "Jumping lunge esplosivo"
         },
         {
           "title": "Bulgarian Split Squat con peso",
           "setup": "Piede rialzato dietro + manubri. Affondo profondo.",
           "dose": "3×12 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l3_ex4.svg",
+          "img": "assets/illustrations/exercises/lunges_l3_ex4.svg",
           "alt": "Bulgarian split squat carico"
         },
         {
           "title": "Goblet Lunge (KB al petto)",
           "setup": "Kettlebell 12-16kg al petto. Affondo alternato.",
           "dose": "4×10 per gamba",
-          "img": "/assets/illustrations/exercises/lunges_l3_ex5.svg",
+          "img": "assets/illustrations/exercises/lunges_l3_ex5.svg",
           "alt": "Goblet lunge"
         }
       ]
@@ -867,35 +867,35 @@
           "title": "Squat + Overhead Press simulato",
           "setup": "Squat + spingi le braccia sopra la testa come per lanciare.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l1_ex1.svg",
+          "img": "assets/illustrations/exercises/wallballs_l1_ex1.svg",
           "alt": "Squat con press simulato"
         },
         {
           "title": "Wall Touch (tocca il muro in alto)",
           "setup": "Davanti al muro. Squat + salta toccando il punto più alto possibile.",
           "dose": "3×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l1_ex2.svg",
+          "img": "assets/illustrations/exercises/wallballs_l1_ex2.svg",
           "alt": "Wall touch jump"
         },
         {
           "title": "Thrusters a corpo libero",
           "setup": "Squat profondo + spingi le braccia sopra la testa velocemente.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l1_ex3.svg",
+          "img": "assets/illustrations/exercises/wallballs_l1_ex3.svg",
           "alt": "Thruster a corpo libero"
         },
         {
           "title": "Jump Squat",
           "setup": "Squat seguito da salto esplosivo. Atterraggio controllato.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l1_ex4.svg",
+          "img": "assets/illustrations/exercises/wallballs_l1_ex4.svg",
           "alt": "Jump squat"
         },
         {
           "title": "High Knees",
           "setup": "Corsa sul posto con ginocchia alte.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/wallballs_l1_ex5.svg",
+          "img": "assets/illustrations/exercises/wallballs_l1_ex5.svg",
           "alt": "High knees"
         }
       ],
@@ -904,35 +904,35 @@
           "title": "Pallone (basket/calcio) Wall Balls",
           "setup": "Pallone leggero. Squat + lancia al muro sopra la testa (2.5m).",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l2_ex1.svg",
+          "img": "assets/illustrations/exercises/wallballs_l2_ex1.svg",
           "alt": "Wall ball con pallone"
         },
         {
           "title": "Zaino carico Thrusters",
           "setup": "Zaino 6-10kg al petto. Squat + press sopra la testa.",
           "dose": "3×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l2_ex2.svg",
+          "img": "assets/illustrations/exercises/wallballs_l2_ex2.svg",
           "alt": "Thruster con zaino"
         },
         {
           "title": "Bottiglia Overhead Squat",
           "setup": "Bottiglia sopra la testa. Squat profondo mantenendo braccia tese.",
           "dose": "3×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l2_ex3.svg",
+          "img": "assets/illustrations/exercises/wallballs_l2_ex3.svg",
           "alt": "Overhead squat"
         },
         {
           "title": "Thruster con bottiglie",
           "setup": "2 bottiglie alle spalle. Squat + press esplosivo.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l2_ex4.svg",
+          "img": "assets/illustrations/exercises/wallballs_l2_ex4.svg",
           "alt": "Thruster con bottiglie"
         },
         {
           "title": "Box Jump (30-40cm)",
           "setup": "Salto su box. Scendi controllato.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l2_ex5.svg",
+          "img": "assets/illustrations/exercises/wallballs_l2_ex5.svg",
           "alt": "Box jump"
         }
       ],
@@ -941,35 +941,35 @@
           "title": "Wall Ball reale (palla medica 4-6kg)",
           "setup": "Palla medica. Squat + lancia a 3m di altezza. Riprendi e ripeti.",
           "dose": "4×20 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l3_ex1.svg",
+          "img": "assets/illustrations/exercises/wallballs_l3_ex1.svg",
           "alt": "Wall ball con palla medica"
         },
         {
           "title": "Kettlebell Thruster",
           "setup": "Kettlebell 12-16kg al petto. Squat + press esplosivo.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l3_ex2.svg",
+          "img": "assets/illustrations/exercises/wallballs_l3_ex2.svg",
           "alt": "Kettlebell thruster"
         },
         {
           "title": "Dumbbell Thruster",
           "setup": "Manubri 8-12kg alle spalle. Squat profondo + press simultaneo.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l3_ex3.svg",
+          "img": "assets/illustrations/exercises/wallballs_l3_ex3.svg",
           "alt": "Dumbbell thruster"
         },
         {
           "title": "Overhead Squat con bilanciere/bastone carico",
           "setup": "Bilanciere/bastone con peso sopra la testa. Squat profondo.",
           "dose": "3×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l3_ex4.svg",
+          "img": "assets/illustrations/exercises/wallballs_l3_ex4.svg",
           "alt": "Overhead squat con carico"
         },
         {
           "title": "Cluster (Clean + Thruster)",
           "setup": "Manubri/KB. Solleva da terra + squat + press in un movimento fluido.",
           "dose": "3×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/wallballs_l3_ex5.svg",
+          "img": "assets/illustrations/exercises/wallballs_l3_ex5.svg",
           "alt": "Cluster complesso"
         }
       ]
