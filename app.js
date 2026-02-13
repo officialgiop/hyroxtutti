@@ -98,7 +98,7 @@ async function renderStations() {
   if (!grid) return;
 
   try {
-    const stations = await loadJSON("/data/stations.json");
+    const stations = await loadJSON("data/stations.json");
 
     grid.innerHTML = stations
       .map((s) => {
@@ -125,7 +125,7 @@ async function renderStations() {
         `;
 
         return `
-          <a class="stationCard" href="/station.html?id=${encodeURIComponent(s.id)}">
+          <a class="stationCard" href="station.html?id=${encodeURIComponent(s.id)}">
             <div class="stationIcon">${iconSVG(iconKey)}</div>
             <div class="stationName">${name}</div>
             <div class="stationMeta">${tagline}</div>
@@ -139,7 +139,7 @@ async function renderStations() {
     grid.innerHTML = `
       <div class="card">
         <div class="cardTitle">Errore caricamento</div>
-        <div class="cardMeta">Non riesco a caricare /data/stations.json.</div>
+        <div class="cardMeta">Non riesco a caricare data/stations.json.</div>
       </div>
     `;
   }
@@ -245,7 +245,7 @@ async function renderStation() {
   const tabButtons = Array.from(document.querySelectorAll('.segmented [role="tab"]'));
 
   try {
-    const stations = await loadJSON("/data/stations.json");
+    const stations = await loadJSON("data/stations.json");
     const station = stations.find((s) => s.id === id) || stations[0];
 
     document.title = `${station.name} - HYROX DIY`;
@@ -287,7 +287,7 @@ async function renderStation() {
       list.innerHTML = `
         <div class="card">
           <div class="cardTitle">Errore caricamento</div>
-          <div class="cardMeta">Controlla /data/stations.json e l'URL (id).</div>
+          <div class="cardMeta">Controlla data/stations.json e l'URL (id).</div>
         </div>
       `;
     }
@@ -302,7 +302,7 @@ async function renderRecipes() {
   if (!list) return;
 
   try {
-    const recipes = await loadJSON("/data/recipes.json");
+    const recipes = await loadJSON("data/recipes.json");
     list.innerHTML = recipes
       .map((r) => {
         const title = escapeHTML(r.title);
@@ -321,7 +321,7 @@ async function renderRecipes() {
     list.innerHTML = `
       <div class="card">
         <div class="cardTitle">Errore caricamento</div>
-        <div class="cardMeta">Non riesco a caricare /data/recipes.json.</div>
+        <div class="cardMeta">Non riesco a caricare data/recipes.json.</div>
       </div>
     `;
   }
