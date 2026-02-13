@@ -13,35 +13,35 @@
           "title": "Band Ski Pull-down (ancoraggio alto)",
           "setup": "Elastico ancorato sopra la testa. Impugna con entrambe le mani.",
           "dose": "3×15 ripetizioni lente",
-          "img": "/assets/illustrations/exercises/skierg_l1_ex1.svg",
+          "img": "assets/illustrations/exercises/skierg_l1_ex1.svg",
           "alt": "Persona che tira un elastico dall'alto simulando lo SkiErg"
         },
         {
           "title": "Plank to Pike",
           "setup": "Partenza in plank. Solleva i fianchi verso l'alto formando una V rovesciata.",
           "dose": "3×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l1_ex2.svg",
+          "img": "assets/illustrations/exercises/skierg_l1_ex2.svg",
           "alt": "Movimento da plank a pike per simulare il gesto di trazione"
         },
         {
           "title": "Jumping Jacks (enfasi braccia)",
           "setup": "Jumping jack classico con enfasi sul movimento delle braccia sopra la testa.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/skierg_l1_ex3.svg",
+          "img": "assets/illustrations/exercises/skierg_l1_ex3.svg",
           "alt": "Jumping jacks con braccia dinamiche"
         },
         {
           "title": "Shadow Ski (a corpo libero)",
           "setup": "In piedi, simula il gesto dello sci di fondo senza attrezzi.",
           "dose": "3×45 secondi",
-          "img": "/assets/illustrations/exercises/skierg_l1_ex4.svg",
+          "img": "assets/illustrations/exercises/skierg_l1_ex4.svg",
           "alt": "Simulazione movimento sci di fondo a corpo libero"
         },
         {
           "title": "Bear Crawl",
           "setup": "Quadrupedia, ginocchia sollevate da terra. Avanza alternando mani e piedi.",
           "dose": "3×10 metri",
-          "img": "/assets/illustrations/exercises/skierg_l1_ex5.svg",
+          "img": "assets/illustrations/exercises/skierg_l1_ex5.svg",
           "alt": "Bear crawl per attivare spalle e core"
         }
       ],
@@ -50,35 +50,35 @@
           "title": "Bottiglia d'acqua Overhead Pull",
           "setup": "2 bottiglie da 1.5L. Sollevale sopra la testa e tira verso il basso.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l2_ex1.svg",
+          "img": "assets/illustrations/exercises/skierg_l2_ex1.svg",
           "alt": "Trazione con bottiglie d'acqua"
         },
         {
           "title": "Zaino carico + Ski Pull",
           "setup": "Zaino riempito (5-8kg). Indossalo e simula il gesto dello ski erg.",
           "dose": "3×40 secondi",
-          "img": "/assets/illustrations/exercises/skierg_l2_ex2.svg",
+          "img": "assets/illustrations/exercises/skierg_l2_ex2.svg",
           "alt": "Ski pull con zaino carico"
         },
         {
           "title": "Sedia Dip + Leg Raise",
           "setup": "Mani sul bordo di una sedia. Esegui dip e solleva alternativamente le ginocchia.",
           "dose": "3×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l2_ex3.svg",
+          "img": "assets/illustrations/exercises/skierg_l2_ex3.svg",
           "alt": "Dip su sedia con sollevamento gambe"
         },
         {
           "title": "Elastico doppio Pull (ancorato in basso)",
           "setup": "Elastico ancorato sotto i piedi. Tira verso l'alto con entrambe le mani.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l2_ex4.svg",
+          "img": "assets/illustrations/exercises/skierg_l2_ex4.svg",
           "alt": "Trazione elastico dal basso verso l'alto"
         },
         {
           "title": "Mountain Climbers veloci",
           "setup": "Posizione plank. Porta le ginocchia al petto alternando rapidamente.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/skierg_l2_ex5.svg",
+          "img": "assets/illustrations/exercises/skierg_l2_ex5.svg",
           "alt": "Mountain climbers ad alta intensità"
         }
       ],
@@ -87,35 +87,35 @@
           "title": "Lat Pulldown con elastico pesante",
           "setup": "Elastico forte ancorato in alto. Tira verso il petto.",
           "dose": "4×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l3_ex1.svg",
+          "img": "assets/illustrations/exercises/skierg_l3_ex1.svg",
           "alt": "Lat pulldown con banda elastica pesante"
         },
         {
           "title": "Kettlebell High Pull",
           "setup": "Kettlebell 12-16kg. Tiralo dal pavimento all'altezza del petto con movimento esplosivo.",
           "dose": "4×10 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l3_ex2.svg",
+          "img": "assets/illustrations/exercises/skierg_l3_ex2.svg",
           "alt": "High pull esplosivo con kettlebell"
         },
         {
           "title": "TRX Ski Pull",
           "setup": "TRX ancorato in alto. Tira il corpo verso l'alto simulando lo ski erg.",
           "dose": "3×12 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l3_ex3.svg",
+          "img": "assets/illustrations/exercises/skierg_l3_ex3.svg",
           "alt": "Trazione TRX stile ski erg"
         },
         {
           "title": "Manubri Overhead Press dinamico",
           "setup": "Manubri 5-8kg per mano. Spingi sopra la testa con ritmo sostenuto.",
           "dose": "4×15 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l3_ex4.svg",
+          "img": "assets/illustrations/exercises/skierg_l3_ex4.svg",
           "alt": "Overhead press dinamico con manubri"
         },
         {
           "title": "Burpee + Pull-up (sbarra/TRX)",
           "setup": "Burpee completo seguito da una trazione alla sbarra o TRX.",
           "dose": "3×8 ripetizioni",
-          "img": "/assets/illustrations/exercises/skierg_l3_ex5.svg",
+          "img": "assets/illustrations/exercises/skierg_l3_ex5.svg",
           "alt": "Burpee combinato con trazione"
         }
       ]
@@ -135,14 +135,14 @@
           "title": "Wall Push (spinta contro muro)",
           "setup": "Mani sul muro all'altezza del petto. Spingi con forza alternando le gambe.",
           "dose": "4×30 secondi",
-          "img": "/assets/illustrations/exercises/sled_push_l1_ex1.svg",
+          "img": "assets/illustrations/exercises/sled_push_l1_ex1.svg",
           "alt": "Spinta isometrica contro il muro"
         },
         {
           "title": "Bear Crawl (gattonamento)",
           "setup": "Quadrupedia, ginocchia sollevate. Avanza spingendo con forza.",
           "dose": "3×15 metri",
-          "img": "/assets/illustrations/exercises/sled_push_l1_ex2.svg",
+          "img": "assets/illustrations/exercises/sled_push_l1_ex2.svg",
           "alt": "Bear crawl per simulare spinta"
         },
         {
