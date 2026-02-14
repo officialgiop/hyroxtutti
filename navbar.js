@@ -1,51 +1,71 @@
-/* =========================
-   HYROX DIY - navbar.js
-   ========================= */
+// navbar.js
+(function () {
+  function initNavbar() {
+    // Adatta questi selettori alle tue classi HTML
+    const nav = document.querySelector(".navbar");
+    const toggle = document.querySelector(".navbar__toggle");
+    const menu = document.querySelector(".navbar__menu");
 
-function initNavbar() {
-  const toggle = document.querySelector('.navbar__toggle');
-  const menu = document.querySelector('.navbar__menu');
-  const links = document.querySelectorAll('.navbar__link');
+    if (!nav || !toggle || !menu) return;
 
-  // Mobile toggle
-  if (toggle && menu) {
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('is-open');
-      toggle.classList.toggle('is-open');
+    const OPEN_CLASS = "is-open";
+    const ACTIVE_CLASS = "active";
+
+    const setOpen = (open) => {
+      menu.classList.toggle(OPEN_CLASS, open);
+      toggle.classList.toggle(OPEN_CLASS, open);
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    };
+
+    // Stato iniziale accessibilità
+    if (!toggle.hasAttribute("aria-expanded")) toggle.setAttribute("aria-expanded", "false");
+    if (!toggle.hasAttribute("aria-controls")) {
+      // se il menu ha id lo usiamo, altrimenti niente
+      if (menu.id) toggle.setAttribute("aria-controls", menu.id);
+    }
+
+    // Toggle menu (tap/click)
+    toggle.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      setOpen(!menu.classList.contains(OPEN_CLASS));
     });
 
-    // Close menu when clicking a link
-    links.forEach(link => {
-      link.addEventListener('click', () => {
-        menu.classList.remove('is-open');
-        toggle.classList.remove('is-open');
-      });
+    // Chiudi cliccando fuori
+    document.addEventListener("click", (e) => {
+      const target = e.target;
+      if (!menu.contains(target) && !toggle.contains(target)) setOpen(false);
     });
 
-    // Close menu when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!toggle.contains(e.target) && !menu.contains(e.target)) {
-        menu.classList.remove('is-open');
-        toggle.classList.remove('is-open');
+    // Chiudi con ESC
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") setOpen(false);
+    });
+
+    // Chiudi dopo click su un link del menu (mobile)
+    menu.querySelectorAll("a").forEach((a) => {
+      a.addEventListener("click", () => setOpen(false));
+    });
+
+    // Imposta link attivo in base alla pagina corrente (works on GitHub Pages subpaths)
+    const currentFile = (window.location.pathname.split("/").pop() || "index.html").toLowerCase();
+
+    nav.querySelectorAll("a").forEach((link) => {
+      const href = (link.getAttribute("href") || "").trim();
+      if (!href || href.startsWith("#") || href.startsWith("http") || href.startsWith("mailto:") || href.startsWith("tel:")) {
+        return;
       }
+
+      const linkFile = href.split("?")[0].split("#")[0].split("/").pop().toLowerCase();
+      if (linkFile === currentFile) link.classList.add(ACTIVE_CLASS);
+      else link.classList.remove(ACTIVE_CLASS);
     });
   }
 
-  // Set active link based on current page
-  const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-  links.forEach(link => {
-    const linkPage = link.getAttribute('href').replace('/', '');
-    if (linkPage === currentPage || 
-        (currentPage === '' && linkPage === 'index.html')) {
-      link.classList.add('active');
-    }
-  });
-}
-
-// Init on DOM load
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initNavbar);
-} else {
-  initNavbar();
-}
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initNavbar);
+  } else {
+    initNavbar();
+  }
+})();
 

@@ -1,0 +1,15 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Omino in movimento -->
+  <circle cx="30" cy="25" r="5" fill="#2d6a4f"/>
+  <line x1="30" y1="30" x2="35" y2="45" stroke="#2d6a4f" stroke-width="3"/>
+  <line x1="35" y1="35" x2="45" y2="30" stroke="#2d6a4f" stroke-width="3"/>
+  <line x1="35" y1="35" x2="25" y2="30" stroke="#2d6a4f" stroke-width="3"/>
+  <line x1="35" y1="45" x2="40" y2="55" stroke="#2d6a4f" stroke-width="3"/>
+  <line x1="35" y1="45" x2="25" y2="50" stroke="#2d6a4f" stroke-width="3"/>
+  
+  <!-- Mondo -->
+  <circle cx="60" cy="30" r="8" stroke="#52b788" stroke-width="2" fill="none"/>
+  <ellipse cx="60" cy="30" rx="3" ry="8" stroke="#52b788" stroke-width="1.5" fill="none"/>
+  <line x1="52" y1="30" x2="68" y2="30" stroke="#52b788" stroke-width="1.5"/>
+</svg>
+
